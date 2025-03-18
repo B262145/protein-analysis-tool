@@ -1,0 +1,48 @@
+PEPSTATS of GAB1299658.1 from 1 to 183
+
+Molecular weight = 20741.04  		Residues = 183   
+Average Residue Weight  = 113.339 	Charge   = -4.0  
+Isoelectric Point = 5.2568
+A280 Molar Extinction Coefficients  = 23490 (reduced)   23615 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 1.133 (reduced)   1.139 (cystine bridges)
+Probability of expression in inclusion bodies = 0.666
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		13		7.104  		0.826  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		3		1.639  		0.565  	
+D = Asp		11		6.011  		1.093  	
+E = Glu		13		7.104  		1.184  	
+F = Phe		9		4.918  		1.366  	
+G = Gly		6		3.279  		0.390  	
+H = His		6		3.279  		1.639  	
+I = Ile		14		7.650  		1.700  	
+J = ---		0		0.000  		0.000  	
+K = Lys		9		4.918  		0.745  	
+L = Leu		26		14.208 		1.920  	
+M = Met		5		2.732  		1.607  	
+N = Asn		9		4.918  		1.144  	
+O = ---		0		0.000  		0.000  	
+P = Pro		9		4.918  		0.946  	
+Q = Gln		4		2.186  		0.560  	
+R = Arg		8		4.372  		0.892  	
+S = Ser		12		6.557  		0.937  	
+T = Thr		11		6.011  		0.985  	
+U = ---		0		0.000  		0.000  	
+V = Val		10		5.464  		0.828  	
+W = Trp		4		2.186  		1.681  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		1		0.546  		0.161  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		45		24.590
+Small		(A+B+C+D+G+N+P+S+T+V)	84		45.902
+Aliphatic	(A+I+L+V)		63		34.426
+Aromatic	(F+H+W+Y)		20		10.929
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	100		54.645
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	83		45.355
+Charged		(B+D+E+H+K+R+Z)		47		25.683
+Basic		(H+K+R)			23		12.568
+Acidic		(B+D+E+Z)		24		13.115
+

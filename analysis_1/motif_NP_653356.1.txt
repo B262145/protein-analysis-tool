@@ -1,0 +1,24 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:19:37
+# Commandline: patmatmotifs
+#    -sequence analysis_1/temp_NP_653356.1.fasta
+#    -outfile analysis_1/motif_NP_653356.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_1/motif_NP_653356.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: NP_653356.1     from: 1   to: 349
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

@@ -2,7 +2,6 @@
 
 <div class="container">
     <h1>Your Analysis History</h1>
-
     <?php
     include 'db_connect.php';
 

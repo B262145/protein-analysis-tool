@@ -1,0 +1,429 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:48
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1291756.1.fasta
+#    -outfile analysis_2/motif_GAB1291756.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1291756.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1291756.1     from: 1   to: 541
+# HitCount: 3
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 481 of sequence
+End = position 484 of sequence
+
+Motif = AMIDATION
+
+FVPFSIGKRYCFGE
+     |  |
+   481  484
+
+Length = 4
+Start = position 187 of sequence
+End = position 190 of sequence
+
+Motif = AMIDATION
+
+LRDFGVGKRGIEER
+     |  |
+   187  190
+
+Length = 10
+Start = position 479 of sequence
+End = position 488 of sequence
+
+Motif = CYTOCHROME_P450
+
+DAFVPFSIGKRYCFGEGLAR
+     |        |
+   479        488
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:48
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1291755.1.fasta
+#    -outfile analysis_2/motif_GAB1291755.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1291755.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1291755.1     from: 1   to: 513
+# HitCount: 5
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 453 of sequence
+End = position 456 of sequence
+
+Motif = AMIDATION
+
+FMAFSSGKRICVGE
+     |  |
+   453  456
+
+Length = 4
+Start = position 206 of sequence
+End = position 209 of sequence
+
+Motif = AMIDATION
+
+ICSIVFGKRFDYED
+     |  |
+   206  209
+
+Length = 4
+Start = position 159 of sequence
+End = position 162 of sequence
+
+Motif = AMIDATION
+
+LRNFGMGKRSIEER
+     |  |
+   159  162
+
+Length = 3
+Start = position 122 of sequence
+End = position 124 of sequence
+
+Motif = RGD
+
+ESRKGRGDKSLII
+     | |
+   122 124
+
+Length = 10
+Start = position 451 of sequence
+End = position 460 of sequence
+
+Motif = CYTOCHROME_P450
+
+DAFMAFSSGKRICVGEALAR
+     |        |
+   451        460
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:48
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1291753.1.fasta
+#    -outfile analysis_2/motif_GAB1291753.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1291753.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1291753.1     from: 1   to: 131
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:48
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1291752.1.fasta
+#    -outfile analysis_2/motif_GAB1291752.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1291752.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1291752.1     from: 1   to: 62
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:49
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1299664.1.fasta
+#    -outfile analysis_2/motif_GAB1299664.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1299664.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1299664.1     from: 1   to: 493
+# HitCount: 4
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 434 of sequence
+End = position 437 of sequence
+
+Motif = AMIDATION
+
+FMPFSAGRRACLGE
+     |  |
+   434  437
+
+Length = 4
+Start = position 140 of sequence
+End = position 143 of sequence
+
+Motif = AMIDATION
+
+LRDFGVGKKSLEQW
+     |  |
+   140  143
+
+Length = 22
+Start = position 43 of sequence
+End = position 64 of sequence
+
+Motif = LEUCINE_ZIPPER
+
+PGPVPLPGLGNLLQVDFENLPYSLYKLQNRYG
+     |                    |
+    43                    64
+
+Length = 10
+Start = position 432 of sequence
+End = position 441 of sequence
+
+Motif = CYTOCHROME_P450
+
+EAFMPFSAGRRACLGEPLAR
+     |        |
+   432        441
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:49
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1299663.1.fasta
+#    -outfile analysis_2/motif_GAB1299663.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1299663.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1299663.1     from: 1   to: 435
+# HitCount: 3
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 363 of sequence
+End = position 366 of sequence
+
+Motif = AMIDATION
+
+FMPFSAGRRACLGE
+     |  |
+   363  366
+
+Length = 4
+Start = position 89 of sequence
+End = position 92 of sequence
+
+Motif = AMIDATION
+
+LPDFVLGKKSLEQW
+     |  |
+    89  92
+
+Length = 10
+Start = position 361 of sequence
+End = position 370 of sequence
+
+Motif = CYTOCHROME_P450
+
+EAFMPFSAGRRACLGEPLAH
+     |        |
+   361        370
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:49
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1299660.1.fasta
+#    -outfile analysis_2/motif_GAB1299660.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1299660.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1299660.1     from: 1   to: 78
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 57 of sequence
+End = position 59 of sequence
+
+Motif = RGD
+
+QSGESRGDSLCPS
+     | |
+    57 59
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:49
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1299659.1.fasta
+#    -outfile analysis_2/motif_GAB1299659.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1299659.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1299659.1     from: 1   to: 111
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 48 of sequence
+End = position 51 of sequence
+
+Motif = AMIDATION
+
+FMPFSAGRRACLGE
+     |  |
+    48  51
+
+Length = 10
+Start = position 46 of sequence
+End = position 55 of sequence
+
+Motif = CYTOCHROME_P450
+
+EAFMPFSAGRRACLGEPLAR
+     |        |
+    46        55
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:49
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1299658.1.fasta
+#    -outfile analysis_2/motif_GAB1299658.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1299658.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1299658.1     from: 1   to: 183
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 18 Mar 2025 20:20:49
+# Commandline: patmatmotifs
+#    -sequence analysis_2/temp_GAB1299657.1.fasta
+#    -outfile analysis_2/motif_GAB1299657.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_2/motif_GAB1299657.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1299657.1     from: 1   to: 164
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

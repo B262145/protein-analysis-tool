@@ -8,29 +8,24 @@ include 'db_connect.php';
 $protein_family = $_POST['protein_family'];
 $taxonomic_group = $_POST['taxonomic_group'];
 
-
-// Execute the Python pipeline
-$command = "python3 pipeline.py " . escapeshellarg($protein_family) . " " . escapeshellarg($taxonomic_group);
-$output = exec($command);
-
-
-// Store results in the database
+// Insert the analysis into the database and get the ID
 try {
-    // Prepare the SQL statement
     $stmt = $conn->prepare("INSERT INTO records (protein_family, taxonomic_group) VALUES (:protein_family, :taxonomic_group)");
-
-    // Bind parameters using bindValue()
     $stmt->bindValue(':protein_family', $protein_family, PDO::PARAM_STR);
     $stmt->bindValue(':taxonomic_group', $taxonomic_group, PDO::PARAM_STR);
-
-    // Execute the statement
     $stmt->execute();
 
+    // Get the last inserted ID
+    $analysis_id = $conn->lastInsertId();
+
+    // Execute the Python pipeline with the analysis ID
+    $command = "python3 pipeline.py " . escapeshellarg($protein_family) . " " . escapeshellarg($taxonomic_group) . " " . escapeshellarg($analysis_id);
+    $output = exec($command);
+
     // Redirect to the results page
-    header("Location: results.php");
+    header("Location: results.php?id=" . $analysis_id);
     exit();
 } catch (PDOException $e) {
-    // Handle database errors
     die("Database error: " . $e->getMessage());
 }
 ?>

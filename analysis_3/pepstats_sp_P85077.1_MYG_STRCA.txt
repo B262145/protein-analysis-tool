@@ -1,0 +1,48 @@
+PEPSTATS of MYG_STRCA from 1 to 154
+
+Molecular weight = 17456.19  		Residues = 154   
+Average Residue Weight  = 113.352 	Charge   = 6.0   
+Isoelectric Point = 9.3662
+A280 Molar Extinction Coefficients  = 13980 (reduced)   13980 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 0.801 (reduced)   0.801 (cystine bridges)
+Improbability of expression in inclusion bodies = 0.518
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		13		8.442  		0.982  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		7		4.545  		0.826  	
+E = Glu		14		9.091  		1.515  	
+F = Phe		8		5.195  		1.443  	
+G = Gly		11		7.143  		0.850  	
+H = His		8		5.195  		2.597  	
+I = Ile		9		5.844  		1.299  	
+J = ---		0		0.000  		0.000  	
+K = Lys		20		12.987 		1.968  	
+L = Leu		15		9.740  		1.316  	
+M = Met		5		3.247  		1.910  	
+N = Asn		1		0.649  		0.151  	
+O = ---		0		0.000  		0.000  	
+P = Pro		4		2.597  		0.500  	
+Q = Gln		10		6.494  		1.665  	
+R = Arg		3		1.948  		0.398  	
+S = Ser		7		4.545  		0.649  	
+T = Thr		8		5.195  		0.852  	
+U = ---		0		0.000  		0.000  	
+V = Val		7		4.545  		0.689  	
+W = Trp		2		1.299  		0.999  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		2		1.299  		0.382  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		39		25.325
+Small		(A+B+C+D+G+N+P+S+T+V)	58		37.662
+Aliphatic	(A+I+L+V)		44		28.571
+Aromatic	(F+H+W+Y)		20		12.987
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	76		49.351
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	78		50.649
+Charged		(B+D+E+H+K+R+Z)		52		33.766
+Basic		(H+K+R)			31		20.130
+Acidic		(B+D+E+Z)		21		13.636
+
