@@ -1,0 +1,44 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  3 Apr 2025 13:32:06
+# Commandline: patmatmotifs
+#    -sequence analysis_5/temp_KAL1788003.1.fasta
+#    -outfile analysis_5/motif_KAL1788003.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_5/motif_KAL1788003.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: KAL1788003.1     from: 1   to: 136
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 7
+Start = position 15 of sequence
+End = position 21 of sequence
+
+Motif = HISTONE_H3_1
+
+KSTCGKAPRKQLATKAA
+     |     |
+    15     21
+
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
+
+Motif = HISTONE_H3_2
+
+LIRKLPFQRLVREIAQDFK
+     |       |
+    67       75
+
+
+#---------------------------------------
+#---------------------------------------

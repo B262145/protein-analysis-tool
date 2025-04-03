@@ -1,0 +1,2 @@
+Protein Family,Taxonomic Group,Number of Sequences,Alignment File,Conservation Plot,Motif Analysis,Protein Properties
+hemoglobin,rodents,10,analysis_8/aligned_sequences.fasta,analysis_8/conservation_plot.1.png,analysis_8/motif_results.txt,analysis_8/pepstats_results.txt

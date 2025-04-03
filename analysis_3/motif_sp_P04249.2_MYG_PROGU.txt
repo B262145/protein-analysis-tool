@@ -1,0 +1,24 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Mon 24 Mar 2025 16:46:17
+# Commandline: patmatmotifs
+#    -sequence analysis_3/temp_sp_P04249.2_MYG_PROGU.fasta
+#    -outfile analysis_3/motif_sp_P04249.2_MYG_PROGU.txt
+# Report_format: dbmotif
+# Report_file: analysis_3/motif_sp_P04249.2_MYG_PROGU.txt
+########################################
+
+#=======================================
+#
+# Sequence: MYG_PROGU     from: 1   to: 154
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

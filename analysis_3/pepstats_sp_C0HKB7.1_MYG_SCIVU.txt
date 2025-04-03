@@ -1,0 +1,48 @@
+PEPSTATS of MYG_SCIVU from 1 to 154
+
+Molecular weight = 17080.69  		Residues = 154   
+Average Residue Weight  = 110.914 	Charge   = 4.5   
+Isoelectric Point = 8.5029
+A280 Molar Extinction Coefficients  = 13980 (reduced)   13980 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 0.818 (reduced)   0.818 (cystine bridges)
+Improbability of expression in inclusion bodies = 0.598
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		14		9.091  		1.057  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		9		5.844  		1.063  	
+E = Glu		14		9.091  		1.515  	
+F = Phe		7		4.545  		1.263  	
+G = Gly		15		9.740  		1.160  	
+H = His		7		4.545  		2.273  	
+I = Ile		9		5.844  		1.299  	
+J = ---		0		0.000  		0.000  	
+K = Lys		22		14.286 		2.165  	
+L = Leu		17		11.039 		1.492  	
+M = Met		3		1.948  		1.146  	
+N = Asn		2		1.299  		0.302  	
+O = ---		0		0.000  		0.000  	
+P = Pro		3		1.948  		0.375  	
+Q = Gln		7		4.545  		1.166  	
+R = Arg		2		1.299  		0.265  	
+S = Ser		8		5.195  		0.742  	
+T = Thr		4		2.597  		0.426  	
+U = ---		0		0.000  		0.000  	
+V = Val		7		4.545  		0.689  	
+W = Trp		2		1.299  		0.999  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		2		1.299  		0.382  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		41		26.623
+Small		(A+B+C+D+G+N+P+S+T+V)	62		40.260
+Aliphatic	(A+I+L+V)		47		30.519
+Aromatic	(F+H+W+Y)		18		11.688
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	79		51.299
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	75		48.701
+Charged		(B+D+E+H+K+R+Z)		54		35.065
+Basic		(H+K+R)			31		20.130
+Acidic		(B+D+E+Z)		23		14.935
+

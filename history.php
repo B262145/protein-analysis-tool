@@ -1,13 +1,27 @@
 <?php include 'includes/header.php'; ?>
+<?php
+// Ensure session started and DB connection is included
+include 'db_connect.php';
+?>
 
 <div class="container">
     <h1>Your Analysis History</h1>
-    <?php
-    include 'db_connect.php';
 
-    // Fetch all analyses from the database
+    <?php
+    if (!isset($_SESSION['user_id'])) {
+        // Not logged in
+        echo "<p>Please <a href='login.php'>log in</a> to view your analysis history.</p>";
+        include 'includes/footer.php';
+        exit();
+    }
+
+    $user_id = $_SESSION['user_id'];
+
     try {
-        $stmt = $conn->query("SELECT * FROM records ORDER BY created_at DESC");
+        // Fetch only the current user's analyses
+        $stmt = $conn->prepare("SELECT * FROM records WHERE user_id = :user_id ORDER BY created_at DESC");
+        $stmt->bindValue(':user_id', $user_id, PDO::PARAM_INT);
+        $stmt->execute();
         $analyses = $stmt->fetchAll(PDO::FETCH_ASSOC);
     } catch (PDOException $e) {
         die("Database error: " . $e->getMessage());
@@ -39,7 +53,7 @@
             </tbody>
         </table>
     <?php else: ?>
-        <p>No analyses found.</p>
+        <p>No analyses found for your account yet.</p>
     <?php endif; ?>
 </div>
 

@@ -1,0 +1,44 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  3 Apr 2025 13:39:26
+# Commandline: patmatmotifs
+#    -sequence analysis_7/temp_CAA65450.1.fasta
+#    -outfile analysis_7/motif_CAA65450.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_7/motif_CAA65450.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: CAA65450.1     from: 1   to: 754
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 60
+Start = position 322 of sequence
+End = position 381 of sequence
+
+Motif = BROMODOMAIN_1
+
+KHAAYAWPFYKPVDASALGLHDYHDIIKHPMDLSTVKRKMENRDYRDAQEFAADVRLMFSNCYKYNPPDH
+     |                                                          |
+   322                                                          381
+
+Length = 60
+Start = position 49 of sequence
+End = position 108 of sequence
+
+Motif = BROMODOMAIN_1
+
+WKHQFAWPFRQPVDAVKLGLPDYHKIIKQPMDMGTIKRRLENNYYWAASECMQDFNTMFTNCYIYNKPTD
+     |                                                          |
+    49                                                          108
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,24 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Mon 24 Mar 2025 15:44:15
+# Commandline: patmatmotifs
+#    -sequence analysis_1/temp_KAI6077391.1.fasta
+#    -outfile analysis_1/motif_KAI6077391.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_1/motif_KAI6077391.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: KAI6077391.1     from: 1   to: 433
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

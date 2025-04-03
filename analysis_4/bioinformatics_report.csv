@@ -1,2 +1,2 @@
 Protein Family,Taxonomic Group,Number of Sequences,Alignment File,Conservation Plot,Motif Analysis,Protein Properties
-hemoglobin,vertebrates,10,analysis_4/aligned_sequences.fasta,analysis_4/conservation_plot.1.png,analysis_4/motif_results.txt,analysis_4/pepstats_results.txt
+histone,mammals,10,analysis_4/aligned_sequences.fasta,analysis_4/conservation_plot.1.png,analysis_4/motif_results.txt,analysis_4/pepstats_results.txt

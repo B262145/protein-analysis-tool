@@ -29,38 +29,57 @@
                 $report_file = "$results_dir/bioinformatics_report.csv";
                 $pepstats_file = "$results_dir/pepstats_results.txt";
 
-                // Check if all required files exist
-                if (file_exists($plot_file) && file_exists($motifs_file) && file_exists($sequences_file) && file_exists($aligned_file) && file_exists($report_file) && file_exists($pepstats_file)) {
-                    // Display the results
-                    echo "<p>Protein Family: " . htmlspecialchars($protein_family) . "</p>";
-                    echo "<p>Taxonomic Group: " . htmlspecialchars($taxonomic_group) . "</p>";
+                echo "<p>Protein Family: " . htmlspecialchars($protein_family) . "</p>";
+                echo "<p>Taxonomic Group: " . htmlspecialchars($taxonomic_group) . "</p>";
 
-                    // Display sequences.fasta
+                // Check and display each file individually, report if not found
+                // Display sequences.fasta
+                if (file_exists($sequences_file)) {
                     echo "<h3>Protein Sequences</h3>";
                     echo "<pre>" . htmlspecialchars(file_get_contents($sequences_file)) . "</pre>";
                     echo "<p><a href='$sequences_file' download>Download Sequences</a></p>";
+                } else {
+                    echo "<p>Protein Sequences file not found.</p>";
+                }
 
-                    // Display aligned_sequences.fasta
+                // Display aligned_sequences.fasta
+                if (file_exists($aligned_file)) {
                     echo "<h3>Aligned Sequences</h3>";
                     echo "<pre>" . htmlspecialchars(file_get_contents($aligned_file)) . "</pre>";
                     echo "<p><a href='$aligned_file' download>Download Aligned Sequences</a></p>";
+                } else {
+                    echo "<p>Aligned Sequences file not found.</p>";
+                }
 
-                    // Display conservation plot
+                // Display conservation plot
+                if (file_exists($plot_file)) {
                     echo "<h3>Conservation Plot</h3>";
                     echo "<img src='$plot_file' alt='Conservation Plot'>";
                     echo "<p><a href='$plot_file' download>Download Conservation Plot</a></p>";
+                } else {
+                    echo "<p>Conservation Plot file not found.</p>";
+                }
 
-                    // Display motifs results
+                // Display motifs results
+                if (file_exists($motifs_file)) {
                     echo "<h3>Motif Analysis Results</h3>";
                     echo "<pre>" . htmlspecialchars(file_get_contents($motifs_file)) . "</pre>";
                     echo "<p><a href='$motifs_file' download>Download Motif Analysis Results</a></p>";
+                } else {
+                    echo "<p>Motif Analysis Results file not found.</p>";
+                }
 
-                    // Display PEPSTATS results
+                // Display PEPSTATS results
+                if (file_exists($pepstats_file)) {
                     echo "<h3>Protein Properties Analysis</h3>";
                     echo "<pre>" . htmlspecialchars(file_get_contents($pepstats_file)) . "</pre>";
                     echo "<p><a href='$pepstats_file' download>Download Protein Properties Analysis</a></p>";
+                } else {
+                    echo "<p>Protein Properties Analysis file not found.</p>";
+                }
 
-                    // Display bioinformatics_report.csv
+                // Display bioinformatics_report.csv
+                if (file_exists($report_file)) {
                     echo "<h3>Analysis Report</h3>";
                     if (($handle = fopen($report_file, "r")) !== FALSE) {
                         echo "<table border='1' cellspacing='0' cellpadding='5'>";
@@ -78,8 +97,9 @@
                     }
                     echo "<p><a href='$report_file' download>Download Analysis Report</a></p>";
                 } else {
-                    echo "<p>No analysis results found.</p>";
+                    echo "<p>Analysis Report file not found.</p>";
                 }
+
             else:
                 echo "<p>Analysis not found.</p>";
             endif;

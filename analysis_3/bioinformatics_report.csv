@@ -1,2 +1,2 @@
 Protein Family,Taxonomic Group,Number of Sequences,Alignment File,Conservation Plot,Motif Analysis,Protein Properties
-myoglobin,aves,10,analysis_3/aligned_sequences.fasta,analysis_3/conservation_plot.1.png,analysis_3/motif_results.txt,analysis_3/pepstats_results.txt
+myoglobin,rodents,10,analysis_3/aligned_sequences.fasta,analysis_3/conservation_plot.1.png,analysis_3/motif_results.txt,analysis_3/pepstats_results.txt

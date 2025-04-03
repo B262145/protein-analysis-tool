@@ -1,2 +1,2 @@
 Protein Family,Taxonomic Group,Number of Sequences,Alignment File,Conservation Plot,Motif Analysis,Protein Properties
-kinase,rodents,4,analysis_1/aligned_sequences.fasta,analysis_1/conservation_plot.1.png,analysis_1/motif_results.txt,analysis_1/pepstats_results.txt
+kinase,aves,4,analysis_1/aligned_sequences.fasta,analysis_1/conservation_plot.1.png,analysis_1/motif_results.txt,analysis_1/pepstats_results.txt

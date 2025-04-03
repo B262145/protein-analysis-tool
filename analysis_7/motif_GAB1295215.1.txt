@@ -1,0 +1,34 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu  3 Apr 2025 13:39:25
+# Commandline: patmatmotifs
+#    -sequence analysis_7/temp_GAB1295215.1.fasta
+#    -outfile analysis_7/motif_GAB1295215.1.txt
+# Report_format: dbmotif
+# Report_file: analysis_7/motif_GAB1295215.1.txt
+########################################
+
+#=======================================
+#
+# Sequence: GAB1295215.1     from: 1   to: 358
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 92 of sequence
+End = position 95 of sequence
+
+Motif = AMIDATION
+
+IMDVKIGRKSYDPF
+     |  |
+    92  95
+
+
+#---------------------------------------
+#---------------------------------------

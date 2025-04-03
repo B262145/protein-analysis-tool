@@ -1,3 +1,4 @@
+<?php include_once 'session.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,20 +9,36 @@
 </head>
 <body>
 
-    <div class="header-image">
-        <img src="images/Credit_iStock.png" alt="Credit iStock">
-    </div>
+<div class="header-image">
+    <img src="images/Credit_iStock.png" alt="Credit iStock">
+</div>
 
-    <header>
-        <nav>
-            <a href="index.php" class="logo">Protein Analysis</a>
-            <ul>
-                <li><a href="index.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'index.php' ? 'active' : ''; ?>">Home</a></li>
-                <li><a href="history.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'history.php' ? 'active' : ''; ?>">History</a></li>
-                <li><a href="example_dataset.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'example_dataset.php' ? 'active' : ''; ?>">Example Dataset</a></li>
-                <li><a href="statement_of_credits.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'statement_of_credits.php' ? 'active' : ''; ?>">Credits</a></li>
-                <li><a href="help_context.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'help_context.php' ? 'active' : ''; ?>">Help</a></li>
-                <li><a href="about.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'about.php' ? 'active' : ''; ?>">About</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav>
+        <a href="index.php" class="logo">Protein Analysis</a>
+        <ul>
+            <?php
+            $current = basename($_SERVER['PHP_SELF']);
+            function nav_link($file, $label) {
+                global $current;
+                $active = $current === $file ? 'active' : '';
+                echo "<li><a href=\"$file\" class=\"$active\">$label</a></li>";
+            }
+
+            nav_link("index.php", "Home");
+            nav_link("history.php", "History");
+            nav_link("example_dataset.php", "Example");
+            nav_link("statement_of_credits.php", "Credits");
+            nav_link("help_context.php", "Help");
+            nav_link("about.php", "About");
+
+            if (isset($_SESSION['user_id'])) {
+                echo "<li><a href=\"#\">Welcome, " . htmlspecialchars($_SESSION['username']) . "</a></li>";
+                echo "<li><a href=\"logout.php\">Logout</a></li>";
+            } else {
+                nav_link("login.php", "Login");
+            }
+            ?>
+        </ul>
+    </nav>
+</header>

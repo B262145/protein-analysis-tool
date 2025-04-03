@@ -1,0 +1,48 @@
+PEPSTATS of MYG_LAGMA from 1 to 154
+
+Molecular weight = 17010.56  		Residues = 154   
+Average Residue Weight  = 110.458 	Charge   = 4.0   
+Isoelectric Point = 7.6108
+A280 Molar Extinction Coefficients  = 13980 (reduced)   13980 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 0.822 (reduced)   0.822 (cystine bridges)
+Improbability of expression in inclusion bodies = 0.523
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		17		11.039 		1.284  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		8		5.195  		0.945  	
+E = Glu		13		8.442  		1.407  	
+F = Phe		7		4.545  		1.263  	
+G = Gly		15		9.740  		1.160  	
+H = His		8		5.195  		2.597  	
+I = Ile		7		4.545  		1.010  	
+J = ---		0		0.000  		0.000  	
+K = Lys		17		11.039 		1.673  	
+L = Leu		19		12.338 		1.667  	
+M = Met		3		1.948  		1.146  	
+N = Asn		2		1.299  		0.302  	
+O = ---		0		0.000  		0.000  	
+P = Pro		4		2.597  		0.500  	
+Q = Gln		8		5.195  		1.332  	
+R = Arg		4		2.597  		0.530  	
+S = Ser		6		3.896  		0.557  	
+T = Thr		5		3.247  		0.532  	
+U = ---		0		0.000  		0.000  	
+V = Val		7		4.545  		0.689  	
+W = Trp		2		1.299  		0.999  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		2		1.299  		0.382  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		43		27.922
+Small		(A+B+C+D+G+N+P+S+T+V)	64		41.558
+Aliphatic	(A+I+L+V)		50		32.468
+Aromatic	(F+H+W+Y)		19		12.338
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	83		53.896
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	71		46.104
+Charged		(B+D+E+H+K+R+Z)		50		32.468
+Basic		(H+K+R)			29		18.831
+Acidic		(B+D+E+Z)		21		13.636
+

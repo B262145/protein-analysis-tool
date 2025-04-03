@@ -1,16 +1,16 @@
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:16
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_XP_071585620.1.fasta
-#    -outfile analysis_3/motif_XP_071585620.1.txt
+#    -sequence analysis_3/temp_sp_C0HKB7.1_MYG_SCIVU.fasta
+#    -outfile analysis_3/motif_sp_C0HKB7.1_MYG_SCIVU.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_XP_071585620.1.txt
+# Report_file: analysis_3/motif_sp_C0HKB7.1_MYG_SCIVU.txt
 ########################################
 
 #=======================================
 #
-# Sequence: XP_071585620.1     from: 1   to: 154
+# Sequence: MYG_SCIVU     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -25,17 +25,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_XP_071405942.1.fasta
-#    -outfile analysis_3/motif_XP_071405942.1.txt
+#    -sequence analysis_3/temp_sp_C0HJQ9.1_MYG_HYSCR.fasta
+#    -outfile analysis_3/motif_sp_C0HJQ9.1_MYG_HYSCR.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_XP_071405942.1.txt
+# Report_file: analysis_3/motif_sp_C0HJQ9.1_MYG_HYSCR.txt
 ########################################
 
 #=======================================
 #
-# Sequence: XP_071405942.1     from: 1   to: 154
+# Sequence: MYG_HYSCR     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -50,17 +50,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_sp_G1NJB6.1_MYG_MELGA.fasta
-#    -outfile analysis_3/motif_sp_G1NJB6.1_MYG_MELGA.txt
+#    -sequence analysis_3/temp_sp_P04248.2_MYG_SPAEH.fasta
+#    -outfile analysis_3/motif_sp_P04248.2_MYG_SPAEH.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_sp_G1NJB6.1_MYG_MELGA.txt
+# Report_file: analysis_3/motif_sp_P04248.2_MYG_SPAEH.txt
 ########################################
 
 #=======================================
 #
-# Sequence: MYG_MELGA     from: 1   to: 154
+# Sequence: MYG_SPAEH     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -75,17 +75,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_sp_P86874.1_MYG_DRONO.fasta
-#    -outfile analysis_3/motif_sp_P86874.1_MYG_DRONO.txt
+#    -sequence analysis_3/temp_sp_P04249.2_MYG_PROGU.fasta
+#    -outfile analysis_3/motif_sp_P04249.2_MYG_PROGU.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_sp_P86874.1_MYG_DRONO.txt
+# Report_file: analysis_3/motif_sp_P04249.2_MYG_PROGU.txt
 ########################################
 
 #=======================================
 #
-# Sequence: MYG_DRONO     from: 1   to: 154
+# Sequence: MYG_PROGU     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -100,17 +100,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_sp_P85077.1_MYG_STRCA.fasta
-#    -outfile analysis_3/motif_sp_P85077.1_MYG_STRCA.txt
+#    -sequence analysis_3/temp_sp_P32428.2_MYG_ONDZI.fasta
+#    -outfile analysis_3/motif_sp_P32428.2_MYG_ONDZI.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_sp_P85077.1_MYG_STRCA.txt
+# Report_file: analysis_3/motif_sp_P32428.2_MYG_ONDZI.txt
 ########################################
 
 #=======================================
 #
-# Sequence: MYG_STRCA     from: 1   to: 154
+# Sequence: MYG_ONDZI     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -125,17 +125,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_sp_Q7LZM1.2_MYG_URILO.fasta
-#    -outfile analysis_3/motif_sp_Q7LZM1.2_MYG_URILO.txt
+#    -sequence analysis_3/temp_sp_P04250.2_MYG_LAGMA.fasta
+#    -outfile analysis_3/motif_sp_P04250.2_MYG_LAGMA.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_sp_Q7LZM1.2_MYG_URILO.txt
+# Report_file: analysis_3/motif_sp_P04250.2_MYG_LAGMA.txt
 ########################################
 
 #=======================================
 #
-# Sequence: MYG_URILO     from: 1   to: 154
+# Sequence: MYG_LAGMA     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -150,17 +150,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_sp_Q7LZM3.2_MYG_PHACT.fasta
-#    -outfile analysis_3/motif_sp_Q7LZM3.2_MYG_PHACT.txt
+#    -sequence analysis_3/temp_sp_P20856.2_MYG_CTEGU.fasta
+#    -outfile analysis_3/motif_sp_P20856.2_MYG_CTEGU.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_sp_Q7LZM3.2_MYG_PHACT.txt
+# Report_file: analysis_3/motif_sp_P20856.2_MYG_CTEGU.txt
 ########################################
 
 #=======================================
 #
-# Sequence: MYG_PHACT     from: 1   to: 154
+# Sequence: MYG_CTEGU     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -175,17 +175,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_sp_P02197.4_MYG_CHICK.fasta
-#    -outfile analysis_3/motif_sp_P02197.4_MYG_CHICK.txt
+#    -sequence analysis_3/temp_sp_P14396.2_MYG_CASFI.fasta
+#    -outfile analysis_3/motif_sp_P14396.2_MYG_CASFI.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_sp_P02197.4_MYG_CHICK.txt
+# Report_file: analysis_3/motif_sp_P14396.2_MYG_CASFI.txt
 ########################################
 
 #=======================================
 #
-# Sequence: MYG_CHICK     from: 1   to: 154
+# Sequence: MYG_CASFI     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -200,17 +200,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_sp_Q7LZM4.2_MYG_CERMN.fasta
-#    -outfile analysis_3/motif_sp_Q7LZM4.2_MYG_CERMN.txt
+#    -sequence analysis_3/temp_sp_Q9QZ76.3_MYG_RAT.fasta
+#    -outfile analysis_3/motif_sp_Q9QZ76.3_MYG_RAT.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_sp_Q7LZM4.2_MYG_CERMN.txt
+# Report_file: analysis_3/motif_sp_Q9QZ76.3_MYG_RAT.txt
 ########################################
 
 #=======================================
 #
-# Sequence: MYG_CERMN     from: 1   to: 154
+# Sequence: MYG_RAT     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No
@@ -225,17 +225,17 @@
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:22:26
+# Rundate: Mon 24 Mar 2025 16:46:17
 # Commandline: patmatmotifs
-#    -sequence analysis_3/temp_sp_P02199.2_MYG_APTFO.fasta
-#    -outfile analysis_3/motif_sp_P02199.2_MYG_APTFO.txt
+#    -sequence analysis_3/temp_NP_067599.1.fasta
+#    -outfile analysis_3/motif_NP_067599.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_3/motif_sp_P02199.2_MYG_APTFO.txt
+# Report_file: analysis_3/motif_NP_067599.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: MYG_APTFO     from: 1   to: 153
+# Sequence: NP_067599.1     from: 1   to: 154
 # HitCount: 0
 #
 # Full: No

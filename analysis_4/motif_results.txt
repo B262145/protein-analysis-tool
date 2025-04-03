@@ -1,17 +1,17 @@
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11776.1.fasta
-#    -outfile analysis_4/motif_QJF11776.1.txt
+#    -sequence analysis_4/temp_KAL1790905.1.fasta
+#    -outfile analysis_4/motif_KAL1790905.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11776.1.txt
+# Report_file: analysis_4/motif_KAL1790905.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11776.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1790905.1     from: 1   to: 136
+# HitCount: 2
 #
 # Full: No
 # Prune: Yes
@@ -19,15 +19,25 @@
 #
 #=======================================
 
-Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Length = 7
+Start = position 15 of sequence
+End = position 21 of sequence
 
-Motif = AMIDATION
+Motif = HISTONE_H3_1
 
-AQVKAHGKKVIHAF
-     |  |
-    64  67
+KSTGGKAPRKQLATKAA
+     |     |
+    15     21
+
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
+
+Motif = HISTONE_H3_2
+
+LIRKLPFQRLVREIAQDFK
+     |       |
+    67       75
 
 
 #---------------------------------------
@@ -35,18 +45,18 @@ AQVKAHGKKVIHAF
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11775.1.fasta
-#    -outfile analysis_4/motif_QJF11775.1.txt
+#    -sequence analysis_4/temp_KAL1790624.1.fasta
+#    -outfile analysis_4/motif_KAL1790624.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11775.1.txt
+# Report_file: analysis_4/motif_KAL1790624.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11775.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1790624.1     from: 1   to: 136
+# HitCount: 2
 #
 # Full: No
 # Prune: Yes
@@ -54,15 +64,25 @@ AQVKAHGKKVIHAF
 #
 #=======================================
 
-Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Length = 7
+Start = position 15 of sequence
+End = position 21 of sequence
 
-Motif = AMIDATION
+Motif = HISTONE_H3_1
 
-AQVKAHGKKVIHAF
-     |  |
-    64  67
+KSTGGKAPRKQLATKAA
+     |     |
+    15     21
+
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
+
+Motif = HISTONE_H3_2
+
+LIRKLPFQRLVREIAQDFK
+     |       |
+    67       75
 
 
 #---------------------------------------
@@ -70,18 +90,18 @@ AQVKAHGKKVIHAF
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11774.1.fasta
-#    -outfile analysis_4/motif_QJF11774.1.txt
+#    -sequence analysis_4/temp_KAL1790398.1.fasta
+#    -outfile analysis_4/motif_KAL1790398.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11774.1.txt
+# Report_file: analysis_4/motif_KAL1790398.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11774.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1790398.1     from: 1   to: 136
+# HitCount: 2
 #
 # Full: No
 # Prune: Yes
@@ -89,15 +109,25 @@ AQVKAHGKKVIHAF
 #
 #=======================================
 
-Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Length = 7
+Start = position 15 of sequence
+End = position 21 of sequence
 
-Motif = AMIDATION
+Motif = HISTONE_H3_1
 
-AQVKAHGKKVIHAF
-     |  |
-    64  67
+KSISGKAPRKQLATKAA
+     |     |
+    15     21
+
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
+
+Motif = HISTONE_H3_2
+
+LIRKLPFQRLVREIAQDFK
+     |       |
+    67       75
 
 
 #---------------------------------------
@@ -105,18 +135,18 @@ AQVKAHGKKVIHAF
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11773.1.fasta
-#    -outfile analysis_4/motif_QJF11773.1.txt
+#    -sequence analysis_4/temp_KAL1790327.1.fasta
+#    -outfile analysis_4/motif_KAL1790327.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11773.1.txt
+# Report_file: analysis_4/motif_KAL1790327.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11773.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1790327.1     from: 1   to: 128
+# HitCount: 3
 #
 # Full: No
 # Prune: Yes
@@ -125,14 +155,34 @@ AQVKAHGKKVIHAF
 #=======================================
 
 Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Start = position 119 of sequence
+End = position 122 of sequence
 
 Motif = AMIDATION
 
-AQVKAHGKKVIHAF
+IHKSLIGKKGQQKT
      |  |
-    64  67
+   119  122
+
+Length = 3
+Start = position 92 of sequence
+End = position 94 of sequence
+
+Motif = RGD
+
+LQLAIRGDEELDS
+     | |
+    92 94
+
+Length = 7
+Start = position 24 of sequence
+End = position 30 of sequence
+
+Motif = HISTONE_H2A
+
+SRSQRAGLQFPVGRIHR
+     |     |
+    24     30
 
 
 #---------------------------------------
@@ -140,18 +190,18 @@ AQVKAHGKKVIHAF
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11772.1.fasta
-#    -outfile analysis_4/motif_QJF11772.1.txt
+#    -sequence analysis_4/temp_KAL1790083.1.fasta
+#    -outfile analysis_4/motif_KAL1790083.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11772.1.txt
+# Report_file: analysis_4/motif_KAL1790083.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11772.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1790083.1     from: 1   to: 136
+# HitCount: 2
 #
 # Full: No
 # Prune: Yes
@@ -159,15 +209,25 @@ AQVKAHGKKVIHAF
 #
 #=======================================
 
-Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Length = 7
+Start = position 15 of sequence
+End = position 21 of sequence
 
-Motif = AMIDATION
+Motif = HISTONE_H3_1
 
-PRIRAHGKKVLTSL
-     |  |
-    64  67
+KSSEGKAPRKQLVTKAA
+     |     |
+    15     21
+
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
+
+Motif = HISTONE_H3_2
+
+LIQKLPFQRLVREIAQDFK
+     |       |
+    67       75
 
 
 #---------------------------------------
@@ -175,17 +235,17 @@ PRIRAHGKKVLTSL
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11771.1.fasta
-#    -outfile analysis_4/motif_QJF11771.1.txt
+#    -sequence analysis_4/temp_KAL1789339.1.fasta
+#    -outfile analysis_4/motif_KAL1789339.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11771.1.txt
+# Report_file: analysis_4/motif_KAL1789339.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11771.1     from: 1   to: 147
+# Sequence: KAL1789339.1     from: 1   to: 135
 # HitCount: 1
 #
 # Full: No
@@ -194,15 +254,15 @@ PRIRAHGKKVLTSL
 #
 #=======================================
 
-Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
 
-Motif = AMIDATION
+Motif = HISTONE_H3_2
 
-PRIRAHGKKVLTSL
-     |  |
-    64  67
+LIRKLPFQRLVREIAQDFK
+     |       |
+    67       75
 
 
 #---------------------------------------
@@ -210,18 +270,18 @@ PRIRAHGKKVLTSL
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11770.1.fasta
-#    -outfile analysis_4/motif_QJF11770.1.txt
+#    -sequence analysis_4/temp_KAL1788532.1.fasta
+#    -outfile analysis_4/motif_KAL1788532.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11770.1.txt
+# Report_file: analysis_4/motif_KAL1788532.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11770.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1788532.1     from: 1   to: 136
+# HitCount: 2
 #
 # Full: No
 # Prune: Yes
@@ -229,15 +289,25 @@ PRIRAHGKKVLTSL
 #
 #=======================================
 
-Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Length = 7
+Start = position 15 of sequence
+End = position 21 of sequence
 
-Motif = AMIDATION
+Motif = HISTONE_H3_1
 
-PRIRAHGKKVLTSL
-     |  |
-    64  67
+KSTGGKAPRKQLATKAA
+     |     |
+    15     21
+
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
+
+Motif = HISTONE_H3_2
+
+LIRKLPFQRLVREIAQDFK
+     |       |
+    67       75
 
 
 #---------------------------------------
@@ -245,18 +315,18 @@ PRIRAHGKKVLTSL
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11769.1.fasta
-#    -outfile analysis_4/motif_QJF11769.1.txt
+#    -sequence analysis_4/temp_KAL1788003.1.fasta
+#    -outfile analysis_4/motif_KAL1788003.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11769.1.txt
+# Report_file: analysis_4/motif_KAL1788003.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11769.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1788003.1     from: 1   to: 136
+# HitCount: 2
 #
 # Full: No
 # Prune: Yes
@@ -264,15 +334,25 @@ PRIRAHGKKVLTSL
 #
 #=======================================
 
-Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Length = 7
+Start = position 15 of sequence
+End = position 21 of sequence
 
-Motif = AMIDATION
+Motif = HISTONE_H3_1
 
-PRIRAHGKKVLTSL
-     |  |
-    64  67
+KSTCGKAPRKQLATKAA
+     |     |
+    15     21
+
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
+
+Motif = HISTONE_H3_2
+
+LIRKLPFQRLVREIAQDFK
+     |       |
+    67       75
 
 
 #---------------------------------------
@@ -280,18 +360,18 @@ PRIRAHGKKVLTSL
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11768.1.fasta
-#    -outfile analysis_4/motif_QJF11768.1.txt
+#    -sequence analysis_4/temp_KAL1787982.1.fasta
+#    -outfile analysis_4/motif_KAL1787982.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11768.1.txt
+# Report_file: analysis_4/motif_KAL1787982.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11768.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1787982.1     from: 1   to: 136
+# HitCount: 2
 #
 # Full: No
 # Prune: Yes
@@ -299,15 +379,25 @@ PRIRAHGKKVLTSL
 #
 #=======================================
 
-Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Length = 7
+Start = position 15 of sequence
+End = position 21 of sequence
 
-Motif = AMIDATION
+Motif = HISTONE_H3_1
 
-PRVKAHGKKVLTSL
-     |  |
-    64  67
+KSTGGKAPRKQLATKAA
+     |     |
+    15     21
+
+Length = 9
+Start = position 67 of sequence
+End = position 75 of sequence
+
+Motif = HISTONE_H3_2
+
+LIRKLPFQRLVREIAQDFK
+     |       |
+    67       75
 
 
 #---------------------------------------
@@ -315,18 +405,18 @@ PRVKAHGKKVLTSL
 
 ########################################
 # Program: patmatmotifs
-# Rundate: Tue 18 Mar 2025 20:23:42
+# Rundate: Mon 24 Mar 2025 16:49:29
 # Commandline: patmatmotifs
-#    -sequence analysis_4/temp_QJF11767.1.fasta
-#    -outfile analysis_4/motif_QJF11767.1.txt
+#    -sequence analysis_4/temp_KAL1787417.1.fasta
+#    -outfile analysis_4/motif_KAL1787417.1.txt
 # Report_format: dbmotif
-# Report_file: analysis_4/motif_QJF11767.1.txt
+# Report_file: analysis_4/motif_KAL1787417.1.txt
 ########################################
 
 #=======================================
 #
-# Sequence: QJF11767.1     from: 1   to: 147
-# HitCount: 1
+# Sequence: KAL1787417.1     from: 1   to: 170
+# HitCount: 3
 #
 # Full: No
 # Prune: Yes
@@ -335,14 +425,34 @@ PRVKAHGKKVLTSL
 #=======================================
 
 Length = 4
-Start = position 64 of sequence
-End = position 67 of sequence
+Start = position 161 of sequence
+End = position 164 of sequence
 
 Motif = AMIDATION
 
-PRVKAHGKKVLTSL
+IHKSLIGKKGQQKT
      |  |
-    64  67
+   161  164
+
+Length = 3
+Start = position 134 of sequence
+End = position 136 of sequence
+
+Motif = RGD
+
+LQLAIRGDEELDS
+     | |
+   134 136
+
+Length = 7
+Start = position 62 of sequence
+End = position 68 of sequence
+
+Motif = HISTONE_H2A
+
+SRSQRAGLQFPVGRIHR
+     |     |
+    62     68
 
 
 #---------------------------------------
